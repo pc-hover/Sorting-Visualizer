@@ -1,0 +1,20 @@
+.btn{
+    margin-right: 50px;
+}
+
+.bar {
+    width: 15px;
+    background-color: rgb(182, 182, 18); 
+    margin-right: 5px;
+}
+#bars_container{
+
+     display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align bars to the bottom of the container */
+    height:700vh;
+    margin-top: 50px;
+    background-color: #060d14;
+    overflow: hidden; /* Hides overflow to prevent vertical scroll */
+
+}  
